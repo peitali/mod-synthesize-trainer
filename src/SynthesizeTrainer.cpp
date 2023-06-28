@@ -45,14 +45,14 @@ public:
                 CloseGossipMenuFor(player);
             }
             else if (action == 2) {
-                learnPSkill(player, creature); 
+                learnPSkill(player, creature);
             }
             else if (action == 3) {
                 player->GetSession()->SendTrainerList(creature->GetGUID(), 31238);
                 CloseGossipMenuFor(player);
             }
             else if (action == 4) {
-                player->GetSession()->SendTrainerList(creature->GetGUID(), 190017);
+                player->GetSession()->SendTrainerList(creature->GetGUID(), 60007);
                 CloseGossipMenuFor(player);
             }
             else if (action == 5) {
